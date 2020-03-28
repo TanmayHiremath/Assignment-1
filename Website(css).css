@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(32,32,32);
+}
+#a {
+ color: red;
+position : sticky;
+top: 0px;
+text-align:center;
+z-index:1;
+opacity:0.5;
+
+}
+
+h1 {
+font-family:"Comic Sans MS", cursive, sans-serif;
+color:cyan;
+text-decoration:underline;
+text-align:center;
+position:static;}
+
+p {
+font-family: "Times New Roman", Times, serif;
+  color: red;
+font-size:30px;
+ font-style: italic;
+text-shadow: 1px 2px 5px green;
+line-height:50px;
+
+}  
+
+#backhover {
+position: static;
+top: 30px
+height: 90%;
+width:100%
+}
+
+#birdhover {
+position: absolute;
+top:150px;
+right:200px;
+height: 30%;
+width:30%
+}
+
+#brandinghover {
+position: absolute;
+top:130px;
+right:550px;
+height:40%;
+width:40%;
+}
+
+#BTI {
+position: static;
+width:50%;
+height:800px;
+}
+
+#btitext {
+position:absolute;
+left:800px;
+top:1100px;
+}
+
+#PD {
+position:relative;
+top:800px;
+width:50%;
+height:800px;
+}
+
+#pdtext {
+position:relative;
+left:5;
+top:1900px;
+width:740px;
+}
+
+#video {
+position:relative;
+left:500px;
+top:900px;}
+	
+   
