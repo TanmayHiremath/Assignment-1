@@ -4,7 +4,7 @@ body {
 #a {
  color: red;
 position : sticky;
-top: 0px;
+top:0px;
 text-align:center;
 z-index:1;
 opacity:0.5;
@@ -13,10 +13,12 @@ opacity:0.5;
 
 h1 {
 font-family:"Comic Sans MS", cursive, sans-serif;
+font-size:50px;
 color:cyan;
 text-decoration:underline;
 text-align:center;
-position:static;}
+position: relative;
+top: 00px;}
 
 p {
 font-family: "Times New Roman", Times, serif;
@@ -29,15 +31,15 @@ line-height:50px;
 }  
 
 #backhover {
-position: static;
-top: 30px
-height: 90%;
-width:100%
+position: relative;
+top: 0px;
+height : 100%;
+width:100%;
 }
 
 #birdhover {
 position: absolute;
-top:150px;
+top:210px;
 right:200px;
 height: 30%;
 width:30%
@@ -45,41 +47,40 @@ width:30%
 
 #brandinghover {
 position: absolute;
-top:130px;
+top:190px;
 right:550px;
 height:40%;
-width:40%;
+width:38%;
 }
 
 #BTI {
 position: static;
 width:50%;
-height:800px;
+height:700px;
 }
 
 #btitext {
-position:absolute;
-left:800px;
-top:1100px;
+position: relative;;
+left:10px;
+top:100px;
 }
 
 #PD {
-position:relative;
-top:800px;
-width:50%;
+position: relative;
+width:60%;
 height:800px;
 }
 
 #pdtext {
-position:relative;
-left:5;
-top:1900px;
-width:740px;
+position: relative;
+top:20px;
+
 }
 
 #video {
-position:relative;
-left:500px;
-top:900px;}
+position: relative;
+top:00px;
+left:400px;
+}
 	
    
