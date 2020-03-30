@@ -127,8 +127,8 @@ padding:15px;
 
 @keyframes margincolor {
   0%   { border: 2px solid green;}
-  25%  { border: 2px solid yellow;}
-  50%  { border: 2px solid blue;}
+  25%  { border: 5px solid yellow;}
+  50%  { border: 5px solid blue;}
   100% { border: 2px solid green;}
 }
 
