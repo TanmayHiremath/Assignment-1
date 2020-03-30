@@ -19,7 +19,7 @@ text-align:center;
 position: static;
 top: 00px;}
 
-p {
+p {overflow:auto;
 font-family: "Times New Roman", Times, serif;
   color: red;
 font-size:30px;
