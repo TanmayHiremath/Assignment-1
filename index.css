@@ -12,11 +12,11 @@ opacity:0.5;
 
 h1 {
 font-family:"Comic Sans MS", cursive, sans-serif;
-font-size:60px;
+font-size:50px;
 color:cyan;
 text-decoration:underline;
 text-align:center;
-position: relative;
+position: static;
 top: 00px;}
 
 p {
@@ -37,7 +37,7 @@ width:100%;
 }
 
 #birdhover {
-padding: 0%;
+
 position: absolute;
 top:210px;
 right:200px;
@@ -46,7 +46,7 @@ width:30%
 }
 
 #brandinghover {
-  padding: 0%;
+
 position: absolute;
 top:190px;
 right:550px;
@@ -102,14 +102,14 @@ padding:15px;
   border: 2px solid green;
   border-radius: 8px;
   
-  transition: width 0.5s, height 0.5s, transform 0.5s;
+  transition: transform 1s;
   
 }
 
 .galleryl:hover{
 
-  width:70%;
-  height:50%;
+ 
+  transform: rotateZ(350deg);
   
 }
 
@@ -120,4 +120,23 @@ padding:15px;
   margin: 5px;
   border: 2px solid green;
   border-radius: 8px;
+  animation-name: margincolor;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes margincolor {
+  0%   { border: 2px solid green;}
+  25%  { border: 2px solid yellow;}
+  50%  { border: 2px solid blue;}
+  100% { border: 2px solid green;}
+}
+
+form {
+   text-align: center;
+}
+label {
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+  font-size: 30px;
 }
