@@ -8,12 +8,11 @@ top:0px;
 text-align:center;
 z-index:1;
 opacity:0.5;
-
 }
 
 h1 {
 font-family:"Comic Sans MS", cursive, sans-serif;
-font-size:50px;
+font-size:60px;
 color:cyan;
 text-decoration:underline;
 text-align:center;
@@ -38,6 +37,7 @@ width:100%;
 }
 
 #birdhover {
+padding: 0%;
 position: absolute;
 top:210px;
 right:200px;
@@ -46,6 +46,7 @@ width:30%
 }
 
 #brandinghover {
+  padding: 0%;
 position: absolute;
 top:190px;
 right:550px;
@@ -54,33 +55,69 @@ width:38%;
 }
 
 #BTI {
+  padding:5px;
+  margin: 7px;
+  border: 2px solid blueviolet;
+  float: left;
+position: static;
+width:50%;
+height:600px;
+}
+
+#btitext {
+  
+  float: left;
+position: static;
+
+}
+
+#PD {
+  padding:5px;
+  margin: 7px;
+  border: 2px solid orange;
+  float: right;
 position: static;
 width:50%;
 height:700px;
 }
 
-#btitext {
-position: relative;;
-left:10px;
-top:100px;
-}
-
-#PD {
-position: relative;
-width:60%;
-height:800px;
-}
-
 #pdtext {
-position: relative;
+  float: right;
+position: static;
 top:20px;
 
 }
 
 #video {
-position: relative;
-top:00px;
-left:400px;
+position: static;
+float: left;
+padding:15px;
 }
-	
-   
+
+.galleryl{
+  float: left;
+  clear:left;
+  padding:3px;
+  margin: 5px;
+  border: 2px solid green;
+  border-radius: 8px;
+  
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+  
+}
+
+.galleryl:hover{
+
+  width:70%;
+  height:50%;
+  
+}
+
+.galleryr {
+  float: right;
+  clear:right;
+  padding:3px;
+  margin: 5px;
+  border: 2px solid green;
+  border-radius: 8px;
+}
