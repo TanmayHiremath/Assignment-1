@@ -114,6 +114,7 @@ padding:15px;
 }
 
 .galleryr {
+  
   float: right;
   clear:right;
   padding:3px;
@@ -132,11 +133,18 @@ padding:15px;
 }
 
 form {
-
-   text-align: center;
+  background-color: rgb(105, 255, 180);
+text-align: center;
+   margin-left: 400px;
+   margin-right: 400px;
 }
 label {
   font-family: "Times New Roman", Times, serif;
   color: red;
   font-size: 30px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
