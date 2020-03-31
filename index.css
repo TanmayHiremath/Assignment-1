@@ -11,6 +11,7 @@ opacity:0.5;
 }
 
 h1 {
+  clear: both;
 font-family:"Comic Sans MS", cursive, sans-serif;
 font-size:50px;
 color:cyan;
@@ -19,7 +20,7 @@ text-align:center;
 position: static;
 top: 00px;}
 
-p {overflow:auto;
+p {
 font-family: "Times New Roman", Times, serif;
   color: red;
 font-size:30px;
@@ -105,7 +106,6 @@ padding:15px;
   transition: transform 1s;
   
 }
-
 .galleryl:hover{
 
  
@@ -118,21 +118,21 @@ padding:15px;
   clear:right;
   padding:3px;
   margin: 5px;
-  border: 2px solid green;
+  border: 1px solid green;
   border-radius: 8px;
-  animation-name: margincolor;
+  animation-name: bordercolor;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
-
-@keyframes margincolor {
-  0%   { border: 2px solid green;}
-  25%  { border: 5px solid yellow;}
-  50%  { border: 5px solid blue;}
-  100% { border: 2px solid green;}
+@keyframes bordercolor {
+  0%   { margin:5px;border: 1px solid green;}
+  25%  { margin:1px;border: 5px solid yellow;}
+  50%  { margin:1px;border: 5px solid blue;}
+  100% { margin:5px;border: 1px solid red;}
 }
 
 form {
+
    text-align: center;
 }
 label {
