@@ -1,14 +1,6 @@
 body {
   background-color: rgb(32,32,32);
 }
-#a {
- color: red;
-position : sticky;
-top:0px;
-text-align:center;
-z-index:1;
-opacity:0.5;
-}
 
 h1 {
   clear: both;
@@ -31,29 +23,29 @@ line-height:50px;
 }  
 
 #backhover {
-position: relative;
-top: 0px;
-height : 100%;
-width:100%;
-}
-
-#birdhover {
-
-position: absolute;
-top:210px;
-right:200px;
-height: 30%;
-width:30%
-}
-
-#brandinghover {
-
-position: absolute;
-top:190px;
-right:550px;
-height:40%;
-width:38%;
-}
+  position: relative;
+  top: 0px;
+  height : 100%;
+  width:100%;
+  }
+  
+  #birdhover {
+  
+  position: absolute;
+  top:10%;
+  right:13%;
+  height: 30%;
+  width:30%
+  }
+  
+  #brandinghover {
+  
+  position: absolute;
+  top:10%;
+  right:36.5%;
+  height:40%;
+  width:38%;
+  }
 
 #BTI {
   padding:5px;
@@ -106,7 +98,7 @@ padding:15px;
   transition: transform 1s;
   
 }
-.galleryl:hover{
+.galleryl:hover {
 
  
   transform: rotateZ(350deg);
